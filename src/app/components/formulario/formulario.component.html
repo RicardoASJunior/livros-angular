@@ -1,0 +1,46 @@
+<div class="container mb-3">
+    <h1>Dados do livro</h1> 
+       <form class="col-10" > 
+          <div class="col-12 ms-5 mt-3">
+             <label htmlFor="titulo" class="col-4 form-label">Título</label>
+             <input 
+             type="text" 
+             name="titulo"  
+             class="form-control" 
+             placeholder="Título do livro" 
+             aria-label="titulo">
+          </div>
+          <div class="col-12 ms-5 mt-3">
+             <label htmlFor="resumo" class="col-4 form-label">Resumo</label>
+             <textarea 
+             class="col-8  form-control" 
+             name="resumo" 
+             id="exampleFormControlTextarea1">
+             </textarea>
+          </div>
+          <div class="col-12 ms-5 mt-3">
+             <label htmlFor="editora" class="col-4 form-label">Editora</label>
+             <select 
+             name="editora" 
+             class="col-5 form-select" 
+             aria-label="Default select example">
+                <option value="Alta Books">Alta Books</option>
+                <option value="Pearson">Pearson</option>
+                <option value="Addison Wesley">Addison Wesley</option>
+             </select>
+          </div>
+          <div class="col-12 ms-5 mt-3">
+             <label htmlFor="autor" class="col-4 form-label">Autor (1 por linha)</label>
+             <textarea
+             name="autor" 
+             class="col-8  form-control" 
+             id="exampleFormControlTextarea1">
+             </textarea>
+          </div>
+          <div>
+             <button class="btn btn-outline-primary ms-5 mt-2" >  
+                Salvar Dados
+             </button>
+          </div>
+       </form>
+ </div>  
